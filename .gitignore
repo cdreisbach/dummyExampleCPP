@@ -1,0 +1,5 @@
+.idea/
+*.root
+*~*
+build/
+cmake-build-debug/
