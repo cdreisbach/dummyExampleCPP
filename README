@@ -1,0 +1,33 @@
+# Requirements
+CMake and ROOT
+
+# Simple installation:
+
+1. Clone respository
+git clone https://github.com/cdreisbach/dummyExampleCPP.git
+
+2. Go to directory
+cd dummyExampleCPP
+
+3. Create build directory
+mkdir build
+
+4. Go into build directory
+cd build
+
+5. CMake for installation
+cmake ..
+
+6. Building
+make
+
+# Result
+ExampleA and ExampleB executables
+
+## ExampleA
+Creates dummy data exampleData.root and creates hits and tracks from those dummy data in exampleOutput.root. The overall
+example serves as example on how to use classes and analyze data from a ROOT tree.
+
+
+## ExampleB
+Does nothing
